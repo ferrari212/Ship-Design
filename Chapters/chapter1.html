@@ -1,0 +1,49 @@
+<body>
+  <h1>Chapter 1 - From GA to Hull</h1>
+  <p>
+    For digital construction of the ship in vessel.js it is necessary to introduce
+    the offset table of the ship in a JSON file. In some cases the table can be
+    unknown or the designer wants to start from a more visual perspective.
+    On those cases the table of offsets must be constructed by ship line plan.
+  </p>
+
+  <h2>Extracting Hull from Line Plan</h2>
+  <p>
+    The project starts with the curves of the ship. The following figure shows the main views of Gunnerus in AutoCAD.
+  </p>
+  <div>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/en/8/87/Batman_DC_Comics.png" class="rounded mx-auto d-block" alt="..."> -->
+    <img src="../Figures/PL.png" class="" alt="..." height="421" style="">
+  </div>
+  <p>
+    In a 3D drawing software we can draw the lines in order to give some idea
+    regarding the shape of the ship. The following figure is the 3D visual lines
+    constructed using the software NX.
+  </p>
+  <div>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/en/8/87/Batman_DC_Comics.png" class="rounded mx-auto d-block" alt="..."> -->
+    <img src="../Figures/3d_figures.png" class="" alt="..." height="421" style="">
+  </div>
+  <p>
+    The points of the ship can be created by the intersection between the offset
+    lines and the waterlines plane. The result can be seen bellow:
+  </p>
+  <div>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/en/8/87/Batman_DC_Comics.png" class="rounded mx-auto d-block" alt="..."> -->
+    <img src="../Figures/3d_points.png" class="" alt="..." height="421" style="">
+    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+  </div>
+  <p>
+    Finally each point in the hull can be group up in order to represent the table
+    of offsets. The table bellow represents the water lines according
+  </p>
+  <div>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/en/8/87/Batman_DC_Comics.png" class="rounded mx-auto d-block" alt="..."> -->
+    <img src="../Figures/table.png" class="" alt="..." width="100%" style="">
+  </div>
+  <div>
+        <!--Block to embed the js content, use <pre> tag-->
+        <pre id="code">
+        </pre>
+    </div>
+</body>
